@@ -3,7 +3,9 @@ package corejava.io;
 /**
  * 此程序是获得网页源代码中某个关键字的链接网址，
  * 如<a href="http:\\www.sina.com" target="blank">新浪</a>
+ * 
  * 本程序编码GBK
+ * 引自http://topic.csdn.net/u/20080402/08/89242129-bb92-4759-8c1c-2f80e9a76e96.html
  */
 import java.net.*;
 import java.util.regex.Matcher;
