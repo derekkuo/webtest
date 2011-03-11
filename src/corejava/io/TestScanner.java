@@ -30,5 +30,24 @@ public class TestScanner {
 		System.out.println( "nextInt()" + in.nextInt() );
 		in.nextLine();		
 		System.out.println( "nextLine()" +in.nextLine() );
+		
+		System.out.println("-------------------test 2 -----------------------");
+		Scanner scannerobject = in;
+		int n = scannerobject.nextInt(); 
+		String s1 = scannerobject.nextLine(); 
+		String s2 = scannerobject.nextLine();
+		System.out.println(n);
+		System.out.println(s1);
+		System.out.println(s2);
+		/*
+		假设输入： 
+		42 
+		and don't you 
+		forget it 
+		在这种情况下，n的值为42，s1设置为空白字符,s2设置为and don't you 
+		因为nextInt()读入42，但并没有读入"\n"，因此S1调用42所在行的剩余部分
+		*/ 
+
+
 	}
 }
