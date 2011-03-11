@@ -1,4 +1,4 @@
-package suanfa;
+package corejava.suanfa;
  
 import java.util.Random;
  

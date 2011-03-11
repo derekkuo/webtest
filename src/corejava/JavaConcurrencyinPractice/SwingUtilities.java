@@ -1,4 +1,4 @@
-package JavaConcurrencyinPractice;
+package  corejava.JavaConcurrencyinPractice;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.ExecutionException;
