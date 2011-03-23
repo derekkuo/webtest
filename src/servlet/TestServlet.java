@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class TestServlet extends HttpServlet {
 
-	public void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String str = request.getParameter("city");
 		System.out.println("未转码："+str);
