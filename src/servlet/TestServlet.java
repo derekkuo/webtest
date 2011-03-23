@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class TestServlet extends HttpServlet {
-
+	//service方法可以get和post请求
 	public void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String str = request.getParameter("city");
